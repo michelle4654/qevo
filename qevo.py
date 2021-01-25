@@ -1045,7 +1045,7 @@ class Population:
             for _ in range(self.MUTANTS_PER_INDIVIDUAL_PER_TYPE):
                 if random.random() < self.P_LOSE_OPERATION and len(individual.ops) > 0:
                     self.l.append(individual.new_drop_op())
-                if random.random() < self.P_ADD_OPERATION and len(individual.ops) < self.MAX_OPS:
+                if random.random() < self.P_ADD_OPERATION and len([op for op in individual.ops if isinstance(op, AMeasurement)]) < self.MAX_OPS:
                     self.l.append(individual.new_gain_op(self.PERMITTED_OPS, self.N, self.F, self.P2, self.Mη))
                 if random.random() < self.P_SWAP_OPERATIONS and len(individual.ops) > 1:
                     self.l.append(individual.new_swap_op())

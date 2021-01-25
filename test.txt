@@ -1,0 +1,191 @@
+2 QUBIT INPUT (5)
+Individual(F=0.99, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([0, 1], (0, 1, 3, 2), (0, 2, 1, 3), 2, 1),
+           AMeasurement(1, 1, 2, 0.99, 1, None),
+           CNOTPerm([0, 1], (0, 2, 3, 1), (0, 2, 1, 3), 2, 1),
+           AMeasurement(0, 1, 2, 0.99, 1, None),
+           CNOTPerm([0, 1], (0, 1, 2, 3), (0, 1, 2, 3), 2, 1),
+           AMeasurement(1, 3, 2, 0.99, 1, None)])
+       
+Individual(F=0.95, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([0, 1], (0, 1, 2, 3), (0, 1, 2, 3), 2, 1),
+           AMeasurement(1, 1, 2, 0.95, 1, None),
+           CNOTPerm([0, 1], (0, 2, 1, 3), (0, 3, 2, 1), 2, 1),
+           AMeasurement(0, 2, 2, 0.95, 1, None),
+           CNOTPerm([0, 1], (0, 3, 1, 2), (0, 1, 2, 3), 2, 1),
+           AMeasurement(1, 1, 2, 0.95, 1, None)])
+
+2 QUBIT INPUT (4)
+Individual(F=0.95, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([0, 1], (0, 1, 3, 2), (0, 3, 1, 2), 2, 1),
+           AMeasurement(1, 3, 2, 0.95, 1, None),
+           CNOTPerm([0, 1], (0, 1, 3, 2), (0, 3, 1, 2), 2, 1),
+           AMeasurement(1, 1, 2, 0.95, 1, None)]
+           
+RAW PAIRS 3
+Individual(F=0.97, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([0, 1], (0, 3, 2, 1), (0, 1, 2, 3), 3, 0.97),
+           CNOTPerm([1, 2], (0, 2, 1, 3), (0, 3, 2, 1), 3, 0.97),
+           AMeasurement(2, 3, 3, 0.97, 0.97, None),
+           AMeasurement(1, 2, 3, 0.97, 0.97, None)])
+           
+RAW PAIRS 8
+Individual(F=0.8, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([1, 2], [0, 1, 3, 2], [0, 2, 3, 1], 5, 0.99),
+           CNOTPerm([0, 2], (0, 2, 3, 1), (0, 2, 3, 1), 5, 0.99),
+           CNOTPerm([2, 3], (0, 1, 2, 3), (0, 1, 3, 2), 5, 0.99),
+           CNOTPerm([2, 4], [0, 1, 3, 2], [0, 3, 1, 2], 5, 0.99),
+           AMeasurement(2, 1, 5, 0.8, 0.99, None),
+           AMeasurement(4, 3, 5, 0.8, 0.99, None),
+           CNOTPerm([2, 3], (0, 3, 1, 2), (0, 1, 3, 2), 5, 0.99),
+           CNOTPerm([1, 2], [0, 2, 3, 1], [0, 2, 1, 3], 5, 0.99),
+           CNOTPerm([0, 2], [0, 3, 1, 2], [0, 2, 3, 1], 5, 0.99),
+           AMeasurement(1, 1, 5, 0.8, 0.99, None),
+           CNOTPerm([2, 4], [0, 2, 1, 3], [0, 1, 3, 2], 5, 0.99),
+           CNOTPerm([3, 4], [0, 2, 3, 1], [0, 3, 1, 2], 5, 0.99),
+           AMeasurement(4, 1, 5, 0.8, 0.99, None),
+           CNOTPerm([1, 3], [0, 2, 3, 1], [0, 3, 1, 2], 5, 0.99),
+           AMeasurement(3, 1, 5, 0.8, 0.99, None),
+           CNOTPerm([2, 4], [0, 1, 3, 2], [0, 3, 2, 1], 5, 0.99),
+           AMeasurement(4, 3, 5, 0.8, 0.99, None),
+           AMeasurement(2, 1, 5, 0.8, 0.99, None),
+           AMeasurement(1, 2, 5, 0.8, 0.99, None)])
+           
+RAW PAIRS 6
+Individual(F=0.97, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([0, 2], (0, 1, 2, 3), (0, 3, 1, 2), 3, 0.99),
+           CNOTPerm([1, 2], [0, 2, 1, 3], [0, 3, 1, 2], 3, 0.99),
+           AMeasurement(2, 1, 3, 0.97, 0.99, None),
+           CNOTPerm([0, 2], [0, 1, 3, 2], [0, 2, 1, 3], 3, 0.99),
+           CNOTPerm([1, 2], (0, 2, 3, 1), (0, 2, 1, 3), 3, 0.99),
+           AMeasurement(1, 1, 3, 0.97, 0.99, None),
+           AMeasurement(1, 1, 3, 0.97, 0.99, None),
+           CNOTPerm([1, 2], [0, 1, 2, 3], [0, 3, 1, 2], 3, 0.99),
+           AMeasurement(1, 1, 3, 0.97, 0.99, None),
+           CNOTPerm([1, 2], (0, 1, 2, 3), (0, 2, 1, 3), 3, 0.99),
+           AMeasurement(2, 3, 3, 0.97, 0.99, None),
+           AMeasurement(1, 1, 3, 0.97, 0.99, None)])
+           
+RAW PAIRS 4
+Individual(F=0.9, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([0, 2], (0, 1, 3, 2), (0, 2, 1, 3), 3, 0.99),
+           AMeasurement(2, 3, 3, 0.9, 0.99, None),
+           CNOTPerm([0, 2], (0, 3, 1, 2), (0, 3, 2, 1), 3, 0.99),
+           CNOTPerm([1, 2], (0, 1, 3, 2), (0, 2, 3, 1), 3, 0.99),
+           AMeasurement(1, 2, 3, 0.9, 0.99, None),
+           AMeasurement(2, 3, 3, 0.9, 0.99, None)])
+
+RAW PAIRS 5
+Individual(F=0.97, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([0, 2], (0, 3, 1, 2), (0, 1, 2, 3), 3, 0.97),
+           CNOTPerm([1, 2], [0, 3, 2, 1], [0, 2, 1, 3], 3, 0.97),
+           AMeasurement(2, 3, 3, 0.97, 0.97, None),
+           AMeasurement(1, 1, 3, 0.97, 0.97, None),
+           CNOTPerm([0, 2], (0, 2, 3, 1), (0, 3, 1, 2), 3, 0.97),
+           CNOTPerm([1, 2], (0, 2, 3, 1), (0, 2, 3, 1), 3, 0.97),
+           AMeasurement(2, 3, 3, 0.97, 0.97, None),
+           AMeasurement(1, 2, 3, 0.97, 0.97, None)])
+           
+RAW PAIRS 4 (more gates, perfect fidelity)
+Individual(F=0.97, history=History.swap_m, weights=(1, 0), ops=[
+           CNOTPerm([0, 2], (0, 2, 1, 3), (0, 2, 3, 1), 4, 1),
+           CNOTPerm([2, 3], (0, 3, 2, 1), (0, 1, 2, 3), 4, 1),
+           CNOTPerm([0, 1], (0, 2, 1, 3), (0, 3, 2, 1), 4, 1),
+           CNOTPerm([1, 2], [0, 2, 1, 3], [0, 1, 2, 3], 4, 1),
+           AMeasurement(2, 1, 4, 0.97, 1, None),
+           CNOTPerm([0, 3], (0, 3, 2, 1), (0, 1, 2, 3), 4, 1),
+           AMeasurement(1, 2, 4, 0.97, 1, None),
+           AMeasurement(3, 1, 4, 0.97, 1, None)])
+
+RAW PAIRS 4 (0.95)
+Individual(F=0.8, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([0, 1], (0, 2, 1, 3), (0, 1, 2, 3), 5, 0.95),
+           CNOTPerm([0, 4], [0, 2, 3, 1], [0, 1, 3, 2], 5, 0.95),
+           CNOTPerm([3, 4], (0, 3, 2, 1), (0, 1, 3, 2), 5, 0.95),
+           AMeasurement(1, 3, 5, 0.8, 0.95, None),
+           AMeasurement(3, 1, 5, 0.8, 0.95, None),
+           CNOTPerm([1, 4], [0, 2, 1, 3], [0, 2, 1, 3], 5, 0.95),
+           AMeasurement(4, 3, 5, 0.8, 0.95, None),
+           AMeasurement(1, 1, 5, 0.8, 0.95, None)])
+
+RAW PAIRS 5 
+Individual(F=0.8, history=History.swap_m, weights=(1, 0), ops=[
+           CNOTPerm([0, 4], [0, 2, 3, 1], [0, 2, 3, 1], 5, 0.95),
+           CNOTPerm([0, 2], [0, 1, 3, 2], [0, 1, 2, 3], 5, 0.95),
+           CNOTPerm([1, 2], (0, 1, 2, 3), (0, 2, 3, 1), 5, 0.95),
+           AMeasurement(1, 1, 5, 0.8, 0.95, None),
+           CNOTPerm([2, 4], [0, 1, 2, 3], [0, 2, 3, 1], 5, 0.95),
+           CNOTPerm([1, 2], [0, 3, 2, 1], [0, 2, 1, 3], 5, 0.95),
+           CNOTPerm([3, 4], [0, 3, 2, 1], [0, 1, 3, 2], 5, 0.95),
+           AMeasurement(1, 1, 5, 0.8, 0.95, None),
+           AMeasurement(2, 1, 5, 0.8, 0.95, None),
+           AMeasurement(3, 2, 5, 0.8, 0.95, None),
+           AMeasurement(4, 1, 5, 0.8, 0.95, None)])
+           
+RAW PAIRS 10 
+Individual(F=0.8, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([1, 4], [0, 1, 2, 3], [0, 1, 3, 2], 5, 0.99),
+           CNOTPerm([0, 4], [0, 1, 3, 2], [0, 3, 1, 2], 5, 0.99),
+           CNOTPerm([1, 3], [0, 3, 2, 1], [0, 1, 2, 3], 5, 0.99),
+           CNOTPerm([0, 2], [0, 1, 2, 3], [0, 3, 2, 1], 5, 0.99),
+           CNOTPerm([2, 3], [0, 1, 2, 3], [0, 2, 1, 3], 5, 0.99),
+           AMeasurement(3, 3, 5, 0.8, 0.99, None),
+           AMeasurement(2, 2, 5, 0.8, 0.99, None),
+           CNOTPerm([0, 2], (0, 3, 2, 1), (0, 3, 1, 2), 5, 0.99),
+           CNOTPerm([2, 3], [0, 2, 3, 1], [0, 1, 3, 2], 5, 0.99),
+           CNOTPerm([2, 4], [0, 1, 2, 3], [0, 2, 3, 1], 5, 0.99),
+           CNOTPerm([0, 4], [0, 1, 3, 2], [0, 2, 3, 1], 5, 0.99),
+           CNOTPerm([1, 3], [0, 2, 1, 3], [0, 2, 1, 3], 5, 0.99),
+           AMeasurement(1, 2, 5, 0.8, 0.99, None),
+           AMeasurement(3, 3, 5, 0.8, 0.99, None),
+           CNOTPerm([1, 4], (0, 3, 2, 1), (0, 1, 3, 2), 5, 0.99),
+           CNOTPerm([2, 3], [0, 2, 3, 1], [0, 2, 3, 1], 5, 0.99),
+           AMeasurement(2, 1, 5, 0.8, 0.99, None),
+           CNOTPerm([1, 3], (0, 3, 1, 2), (0, 1, 3, 2), 5, 0.99),
+           CNOTPerm([1, 2], [0, 2, 3, 1], [0, 2, 1, 3], 5, 0.99),
+           AMeasurement(3, 1, 5, 0.8, 0.99, None),
+           CNOTPerm([3, 4], (0, 2, 3, 1), (0, 1, 3, 2), 5, 0.99),
+           AMeasurement(1, 1, 5, 0.8, 0.99, None),
+           AMeasurement(2, 3, 5, 0.8, 0.99, None),
+           AMeasurement(4, 1, 5, 0.8, 0.99, None),
+           AMeasurement(3, 2, 5, 0.8, 0.99, None)])
+RAW PAIRS 10
+Individual(F=0.8, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([0, 2], (0, 1, 3, 2), (0, 2, 1, 3), 5, 0.95),
+           CNOTPerm([1, 2], [0, 1, 2, 3], [0, 2, 3, 1], 5, 0.95),
+           CNOTPerm([2, 3], [0, 1, 2, 3], [0, 3, 1, 2], 5, 0.95),
+           CNOTPerm([2, 4], [0, 2, 3, 1], [0, 3, 2, 1], 5, 0.95),
+           AMeasurement(4, 3, 5, 0.8, 0.95, None),
+           AMeasurement(2, 1, 5, 0.8, 0.95, None),
+           AMeasurement(3, 3, 5, 0.8, 0.95, None),
+           CNOTPerm([0, 2], [0, 1, 3, 2], [0, 1, 2, 3], 5, 0.95),
+           CNOTPerm([1, 2], [0, 2, 3, 1], [0, 1, 3, 2], 5, 0.95),
+           CNOTPerm([2, 4], [0, 3, 2, 1], [0, 1, 2, 3], 5, 0.95),
+           AMeasurement(4, 1, 5, 0.8, 0.95, None),
+           CNOTPerm([1, 3], [0, 2, 3, 1], [0, 3, 1, 2], 5, 0.95),
+           CNOTPerm([2, 4], [0, 2, 3, 1], [0, 2, 3, 1], 5, 0.95),
+           AMeasurement(2, 1, 5, 0.8, 0.95, None),
+           CNOTPerm([1, 2], [0, 2, 3, 1], [0, 2, 1, 3], 5, 0.95),
+           AMeasurement(3, 3, 5, 0.8, 0.95, None),
+           CNOTPerm([1, 3], [0, 1, 3, 2], [0, 3, 1, 2], 5, 0.95),
+           AMeasurement(1, 1, 5, 0.8, 0.95, None),
+           AMeasurement(3, 3, 5, 0.8, 0.95, None),
+           AMeasurement(4, 3, 5, 0.8, 0.95, None),
+           AMeasurement(2, 1, 5, 0.8, 0.95, None)])
+RAW PAIRS 7
+Individual(F=0.8, history=History.survivor, weights=(1, 0), ops=[
+           CNOTPerm([0, 4], [0, 2, 1, 3], [0, 1, 3, 2], 5, 0.95),
+           CNOTPerm([3, 4], [0, 1, 3, 2], [0, 1, 3, 2], 5, 0.95),
+           CNOTPerm([0, 1], [0, 2, 3, 1], [0, 2, 3, 1], 5, 0.95),
+           CNOTPerm([2, 4], [0, 1, 2, 3], [0, 3, 1, 2], 5, 0.95),
+           AMeasurement(4, 1, 5, 0.8, 0.95, None),
+           CNOTPerm([1, 3], (0, 2, 1, 3), (0, 3, 2, 1), 5, 0.95),
+           CNOTPerm([3, 4], (0, 2, 1, 3), (0, 3, 2, 1), 5, 0.95),
+           AMeasurement(2, 1, 5, 0.8, 0.95, None),
+           AMeasurement(4, 1, 5, 0.8, 0.95, None),
+           AMeasurement(3, 2, 5, 0.8, 0.95, None),
+           CNOTPerm([1, 3], [0, 3, 1, 2], [0, 1, 3, 2], 5, 0.95),
+           AMeasurement(3, 1, 5, 0.8, 0.95, None),
+           CNOTPerm([1, 4], [0, 3, 2, 1], [0, 1, 3, 2], 5, 0.95),
+           AMeasurement(4, 3, 5, 0.8, 0.95, None),
+           AMeasurement(1, 2, 5, 0.8, 0.95, None)])
